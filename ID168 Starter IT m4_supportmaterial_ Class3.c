@@ -1,7 +1,7 @@
-#include <stdio.h> //biblioteca de comunicaÃ§Ã£o com o usuÃ¡rio
-#include <stdlib.h> //biblioteca de alocaÃ§Ã£o de espaÃ§o em memÃ³ria
-#include <locale.h> //biblioteca de alocaÃ§Ãµes de texto por regiÃ£o
-#include <string.h> //biblioteca responsÃ¡vel por cuidar das string
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <locale.h> 
+#include <string.h> 
 		
 int registro()
 {
@@ -141,10 +141,10 @@ int main()
 			break;	
 		
 			default:
-			printf("Essa opÃ§Ã£o nÃ£o estÃ¡ disponivel!\n");
+			printf("Essa opção não esta disponível!.\n");
 			system("pause");
 			break;
-		} //fim da seleÃ§Ã£o
+		} 
 			
 	}	
 }
